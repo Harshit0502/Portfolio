@@ -270,11 +270,3 @@ with st.form("contact"):
             st.success("Thanks! I’ll get back to you soon.")
             mailto = f"mailto:{PROFILE['email']}?subject=Portfolio%20Contact%20from%20{name}&body={msg}"
             st.markdown(f"[📧 Email fallback]({mailto})")
-
-# -------------- README / HOW TO RUN --------------
-with st.expander("How to run / Deploy"):
-    st.markdown("""
-**Local**
-1. Create venv & install requirements:  
-   ```bash
-   pip install -r requirements.txt
