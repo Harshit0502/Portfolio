@@ -1,0 +1,82 @@
+{
+  "page_title": "Harshit Mahour — Portfolio",
+  "avatar": "assets/avatar.jpg",
+  "name": "Harshit Mahour",
+  "role": "Final-year CSE @ IIIT Bhopal | GenAI • NLP • Data Science",
+  "summary": "Built scalable ML pipelines, a multimodal stock forecasting engine, and secure NLP systems. Focus on GenAI/NLP for unstructured data and risk-aware forecasting.",
+  "contact": { "email": "harshitmahour360@gmail.com", "location": "India" },
+  "socials": {
+    "LinkedIn": "https://www.linkedin.com/in/harshit-mahour-6b760b213/",
+    "GitHub": "https://github.com/Harshit0502",
+    "Codeforces": "https://codeforces.com/profile/Harshit0502"
+  },
+  "resume_url": "https://drive.google.com/file/d/1vdg17u8q0HZdD0JdWJWbvhnu3nMlGQRg/view?usp=sharing",
+  "resume_local_path": "",
+  "quick_links": [
+    { "title": "Cipher Shield (Live)", "url": "https://ciphershieldv3-kentdiwuszkthgk8bipobg.streamlit.app/" },
+    { "title": "StockNews Engine (Repo)", "url": "https://github.com/Harshit0502/stock-news-engine" }
+  ],
+  "skills": {
+    "Programming": ["Python", "C", "C++"],
+    "Data Science & ML": ["scikit-learn", "TensorFlow", "PyTorch", "XGBoost"],
+    "GenAI & NLP": ["Transformers", "FAISS", "LangChain", "RAG", "Sentence Embeddings"],
+    "MLOps & Deploy": ["Docker", "FastAPI", "Streamlit", "MLflow"],
+    "Databases": ["MySQL", "MongoDB"],
+    "CS Fundamentals": ["OOP", "OS", "Computer Networks"],
+    "Problem Solving": ["DSA", "Competitive Programming"]
+  },
+  "projects": [
+    {
+      "title": "Cipher Shield",
+      "summary": "Encrypted chat with AES-256/ECC, JWT auth, and NLP anomaly detection.",
+      "stack": ["Django", "Streamlit", "Redis", "AES", "ECC", "Scikit-learn", "Docker"],
+      "links": {
+        "GitHub": "https://github.com/Harshit0502/Cipher_Shield_V3_unDER_DEV",
+        "Live": "https://ciphershieldv3-kentdiwuszkthgk8bipobg.streamlit.app/"
+      },
+      "highlights": ["92% detection precision with <250ms latency."],
+      "image": "assets/ciphershield.png"
+    },
+    {
+      "title": "StockNews Engine — Multimodal Stock Movement Predictor",
+      "summary": "Financial news embeddings + OHLCV; entropy-aware fusion; event-driven risks.",
+      "stack": ["TensorFlow", "FAISS", "C++", "ONNX", "Python"],
+      "links": { "GitHub": "https://github.com/Harshit0502/stock-news-engine" },
+      "highlights": ["Crash forecast accuracy: 68% @ 5-day horizon (backtests)."],
+      "image": "assets/stocknews.png"
+    }
+  ],
+  "experience": [
+    {
+      "company": "FOSSEE, IIT Bombay (Osdag)",
+      "role": "Software Fellow",
+      "dates": "May 2025 – Jul 2025",
+      "bullets": [
+        "Optimized backend + GUI (PyQt5) used by 500+ academic users.",
+        "PSO optimization ⇒ 30% faster large-scale data validation.",
+        "Refactored 800+ LOC into modular components."
+      ]
+    },
+    {
+      "company": "AICTE × Shell × Edunet Foundation",
+      "role": "AI/ML Intern",
+      "dates": "Jan 2025 – Feb 2025",
+      "bullets": [
+        "Evaluated SVM/Ridge/RF on 15K-record sustainability dataset (↑ ~18% R²).",
+        "Automated ETL with Pandas/NumPy (↓ 40% handling time).",
+        "Built interpretable dashboards for 4+ mentorship reviews."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "IIIT Bhopal",
+      "degree": "B.Tech, Computer Science & Engineering",
+      "dates": "Nov 2022 – Jun 2026 (Expected)",
+      "coursework": ["DSA", "DBMS", "Computer Networks", "Operating Systems", "Distributed Systems"]
+    }
+  ],
+  "blog": {
+    "rss_url": ""
+  }
+}
